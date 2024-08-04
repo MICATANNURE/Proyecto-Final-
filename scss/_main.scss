@@ -1,0 +1,24 @@
+.main{
+    background-color: #f9f6ee;
+	padding:1.2rem;
+	width:70%;
+    section{
+        .principal{
+            margin-bottom: 20px;
+            img{
+                vertical-align: top;
+	            width: 100%;
+            }
+        }
+        h2{
+            margin:20px;
+	        font-weight: normal;
+	        font-size: 2rem;
+        }
+        p{
+            margin:20px;
+            font-size: 1rem;
+            line-height: 1.8rem;
+        }
+    }
+}

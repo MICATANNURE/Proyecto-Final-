@@ -1,0 +1,38 @@
+.contenedor{
+    margin: auto;
+	width: 90%;
+	display:flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+    header{
+        width:100%;
+	    padding:15px 0;
+	    display:flex;
+	    flex-direction: row;
+	    justify-content: space-between;
+	    align-items: center;
+        .logo{
+            img{
+                padding:5px;
+            }
+        }
+        .menu{
+            ul{
+                display:flex;
+	            list-style-type: none;
+                li{
+                    a{
+                        color:rgb(91, 20, 20);
+                        text-decoration: none;
+                        padding:1rem;
+                        &:hover{
+                            font-weight: bold;
+	                        text-decoration: underline;
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+}
